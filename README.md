@@ -1,8 +1,2 @@
 # Tip_Calculator
-• The application provides option for the user to specify
-  o Bill amount
-  o Tip percentage
-  o Number of people
-• Based on the above inputs the application displays
-  o Tip amount to be paid per person
-  o Total amount to be paid per person
+This Tip calculator application calculate tip amount to be paid per person and total amount to be paid per person with the help of getting information about Bill amount, Percentage of tip and Number of people.
