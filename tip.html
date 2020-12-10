@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tip Calculator</title>
+	<link rel ="stylesheet" href="tip.css" />
+</head>
+<body>
+
+<main>
+	<h1>Tip Calculator</h1>
+	<div>
+		<label>Bill</label>
+		<input type="number" name="bill" id="bill">
+		<br>
+		<label>Tip %</label>
+		<button id="subtract1">-</button>
+		<input type="number" id="tip_perc" value="0">
+		<button id="add1">+</button>
+		<br>
+		<label>Number of people</label>
+		<button id="subtract2">-</button>
+		<input type="number" id = "people" value="0">
+		<button id="add2">+</button>
+		<br>
+		<label>Tip per person</label>
+		<input type="text" name="tip" id="tip_total" disabled>
+		<br>
+		<label>Total per person</label>
+		<input type="text" name="total" id="total_bill" disabled>
+		<br><br>
+		<button onclick="tipcalcy()"><b>CALCULATE</b></button>
+	</div>
+</main>
+<script src="tip.js"></script>
+</body>
+</html>

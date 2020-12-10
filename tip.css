@@ -1,0 +1,28 @@
+label{
+    display: block;
+    margin-top: 30px;
+}
+input{
+    width: 300px;
+    padding: 10px 0;
+}
+main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+div{
+    max-width: 500px; height: auto;
+    padding:  50px;
+    box-shadow: 1px 1px 15px 3px grey;
+}
+h1{
+    text-shadow: 1px 2px 1px grey;
+}	
+button{
+    display: inline-block;
+    padding: 10px 20px;
+}
